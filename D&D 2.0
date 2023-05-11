@@ -1,4 +1,5 @@
 import random
+
 print('Escolha sua Raça: ')
 print('1 - Anão')
 print('2 - Elfo')
@@ -24,21 +25,39 @@ elif race == 2:
     subelf = input('Escolha uma subraça: High Elf; Wood Elf ou Dark Elf: ')
     if subelf == 'High':
         print('Vocé é um High Elf.')
+    elif subelf == 'Wood':
+            print('Você é um Wood Elf')
+    else:
+         print('Você é um Dark Elf')        
 elif race == 3:
     print('Parabens você é um Gnomo!')
+    subgnomo = input('Escolha uma subraça: Gnomo da Floresta ou Gnomo das Rochas - ')
+    if subgnomo == 'Floresta':
+        print('Você é um gnomo da floresta!')
+    else:
+        print('Você é um Gnomo das Rochas!')
 elif race == 4:
     print('Parabens você é um Humano!')
 elif race == 5:
-    print('Parabens você é um humano ')
+    print('Parabens você é um Draconato!')
 elif race == 6:
-    print('Parabens você é um Half-ling')
+    print('Parabens você é um Half-ling!')
+    subhalf = input('Escolha uma subraçã: Pés leves ou Robusto: ')
+    if subhalf == 'Pés leves':
+      print('Você é um Halfling pé leve!')
+    else:
+        print('Você é um Halfling Robusto!')
 elif race == 7:
-    print('Parabens! você é um meio-elfo')
+    print('Parabens! você é um meio-elfo!')
 elif race == 8:
-    print('Parabens! você é um meio-orc')
+    print('Parabens! você é um meio-orc!')
 elif race == 9:
-    print('Parabens! você um tiefling')
+    print('Parabens! você um tiefling!')
+    subtief = input('Escolha uma subraça: Infernal ou Abissal - ')
+    if subtief == 'Infernal':
+        print("Você é um Tiefling Infernal!")
+    else:
+        print('Você é um Tiefling Abissal')             
 else:
     print('Opção inválida.')
-
 
