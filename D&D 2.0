@@ -179,3 +179,6 @@ elif antecedente == 12:
     print('Meus antecedentes eram Soldados.')
 else:
     print('Escolha uma das opções disponíveis.')
+    
+personagem = input('Digite o nome de seu personagem: ')
+print(f"Agora em Forgotten Realms, inicia-se a jornada de {personagem}")
