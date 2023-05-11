@@ -60,4 +60,50 @@ elif race == 9:
         print('Você é um Tiefling Abissal')             
 else:
     print('Opção inválida.')
+    
+    
+print('Agora, escolha a sua classe: ')
+print('1 - Barbaro')
+print('2 - Bardo')
+print('3 - Bruxo')
+print('4 - Clérigo')
+print('5 - Druida')
+print('6 - Feiticeiro')
+print('7 - Guerreiro')
+print('8 - Ladino')
+print('9 - Mago')
+print('10 - Monge')
+print('11 - Paladino')
+print('12 - Patrulheiro')
+
+classe = int(input('Qual Classe você deseja selecionar? '))
+
+if classe == 1:
+    print('Parabéns, sua classe será de Barbáro(a)!')
+elif classe == 2:
+    print('Parabéns, sua classe será de Bardo(a)!')
+elif classe == 3:
+    print('Parabéns, sua classe será de Bruxo(a)!')
+elif classe == 4:
+    print('Parabéns, sua classe será de Clérigo(a)!')
+elif classe == 5:
+    print('Parabéns, sua classe será de Druida!')
+elif classe == 6:
+    print('Parabéns, sua classe será de Feiticeiro(a)!')
+elif classe == 7:
+    print('Parabéns, sua classe será de Guerreiro(a)!')
+elif classe == 8:
+    print('Parabéns, sua classe será de Ladino(a)!')
+elif classe == 9:
+    print('Parabéns, sua classe será de Mago(a)!')
+elif classe == 10:
+    print('Parabéns, sua classe será de Monge!')
+elif classe == 11:
+    print('Parabéns, sua classe será de Paladino(a)!')
+elif classe == 12:
+    print('Parabéns, sua classe será de Patrulheiro(a)!')
+else:
+    print('Resultado inválido.')
+
+
 
