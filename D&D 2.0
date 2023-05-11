@@ -1,0 +1,44 @@
+import random
+print('Escolha sua Raça: ')
+print('1 - Anão')
+print('2 - Elfo')
+print('3 - Gnomo')
+print('4 - Humano')
+print('5 - Draconato')
+print('6 - Half-ling')
+print('7 - meio-elfo')
+print('8 - meio-orc')
+print('9 - tielfling')
+
+race = int(input('Qual classe você deseja selecionar?: '))
+
+if race == 1:
+    print('Parabens você é um anão!')
+    subrace = input('Escolha uma subraça: Anão da Colina ou Anao da Montanha: ')
+    if subrace == 'Colina':
+        print('Parabéns, você é um Anão da Colina.')
+    else:
+        print("Parabens! Você é um anão da montanha")
+elif race == 2:
+    print('Parabens você é um Elfo!')
+    subelf = input('Escolha uma subraça: High Elf; Wood Elf ou Dark Elf: ')
+    if subelf == 'High':
+        print('Vocé é um High Elf.')
+elif race == 3:
+    print('Parabens você é um Gnomo!')
+elif race == 4:
+    print('Parabens você é um Humano!')
+elif race == 5:
+    print('Parabens você é um humano ')
+elif race == 6:
+    print('Parabens você é um Half-ling')
+elif race == 7:
+    print('Parabens! você é um meio-elfo')
+elif race == 8:
+    print('Parabens! você é um meio-orc')
+elif race == 9:
+    print('Parabens! você um tiefling')
+else:
+    print('Opção inválida.')
+
+
