@@ -104,6 +104,38 @@ elif classe == 12:
     print('Parabéns, sua classe será de Patrulheiro(a)!')
 else:
     print('Resultado inválido.')
+    
+print('A tendência do seu personagem será: ')
+print('1 - Leal e bom')
+print('2 - Leal e neutro')
+print('3 - Leal e mau')
+print('4 - Neutro e bom')
+print('5 - Neutro')
+print('6 - Neutro e mau')
+print('7 - Caótico e bom')
+print('8 - Caótico e neutro')
+print('9 - Caótico e mau')
 
+tendencia = int(input('Qual a tendência do seu personagem? '))
+if tendencia == 1:
+    print('A tendencia do meu personagem será Leal-Bom.')
+elif tendencia == 2:
+    print('A tendencia do meu personagem será Leal-Neutro.')
+elif tendencia == 3:
+    print('A tendencia do meu personagem será Leal-Mau.')
+elif tendencia == 4:
+    print('A tendencia do meu personagem será Neutro-Bom.')
+elif tendencia ==5:
+    print('A tendencia do meu personagem será Neutro.')
+elif tendencia == 6:
+    print('A tendencia do meu personagem será Neutro-Mau.')
+elif tendencia == 7:
+    print('A tendencia do meu personagem será Caótic-Bom.')
+elif tendencia == 8:
+    print('A tendencia do meu personagem será Caótico-Neutro.')
+elif tendencia == 9:
+    print('A tendencia do meu personagem será Caótico-Mau.')
+else:
+    print('Resultado Invalido.')
 
 
