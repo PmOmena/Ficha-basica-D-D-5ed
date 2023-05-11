@@ -138,4 +138,44 @@ elif tendencia == 9:
 else:
     print('Resultado Invalido.')
 
+print('Qual será o antecendente do seu personagem? ')
+print('1 - Acólito')
+print('2 - Artesão de Guilda')
+print('3 - Artista')
+print('4 - Charlatão')
+print('5 - Criminoso')
+print('6 - Eremita')
+print('7 - Forasteiro')
+print('8 - Marinheiro')
+print('9 - Nobre')
+print('10 - Órfão')
+print('11 - Sábio')
+print('12 - Soldado')
 
+antecedente = int(input('A antecedência do meu personagem será de: '))
+if antecedente == 1:
+    print('Meus antecedentes eram Acólitos.')
+elif antecedente == 2:
+    print('Meus antecedentes eram Artesões de guildas.')
+elif antecedente == 3:
+    print('Meus antecedentes eram Artistas.')
+elif antecedente == 4:
+    print('Meus antecedentes eram Charlatões.')
+elif antecedente == 5:
+    print('Meus antecedentes eram Criminosos.')
+elif antecedente == 6:
+    print('Meus antencedentes eram Eremitas.')
+elif antecedente == 7:
+    print('Meus antencedentes eram Forasteiros.')
+elif antecedente == 8:
+    print('Meus antecedentes eram  Marinheiros.')
+elif antecedente == 9:
+    print('Meus antecedentes eram Nobres.')
+elif antecedente == 10:
+    print('Meus antecedentes eram Órfãos.')
+elif antecedente == 11:
+    print('Meus antecedentes eram Sábios.')
+elif antecedente == 12:
+    print('Meus antecedentes eram Soldados.')
+else:
+    print('Escolha uma das opções disponíveis.')
